@@ -55,11 +55,18 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <HomeScroll></HomeScroll>
+    </div>
   </div>
 </template>
 
 <script>
+import HomeScroll from "../components/HomeScroll.vue";
 export default {
+  components: {
+    HomeScroll,
+  },
   name: "HomePage",
 };
 </script>
