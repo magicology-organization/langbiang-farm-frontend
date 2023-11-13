@@ -72,17 +72,15 @@
           </div>
         </div>
       </section>
-      <hr />
     </div>
-    <div class="container-fluid newsletter">
-      <h1>Newsletter</h1>
-    </div>
+    <NewsletterSubscrb />
   </div>
 </template>
 
 <script>
 import ScrollMagic from "scrollmagic";
 import HomeCategories from "./HomeCategories.vue";
+import NewsletterSubscrb from "./NewsletterSubscrb.vue";
 
 export default {
   mounted() {
@@ -108,6 +106,7 @@ export default {
   },
   components: {
     HomeCategories,
+    NewsletterSubscrb,
   },
 };
 </script>
@@ -131,9 +130,5 @@ export default {
 
 .home-page-section img {
   max-width: 100%;
-}
-.newsletter {
-  background-image: url("../assets/newsletter.png");
-  min-height: 120px;
 }
 </style>
