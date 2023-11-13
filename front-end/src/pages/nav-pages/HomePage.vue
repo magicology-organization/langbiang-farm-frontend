@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import HomeScroll from "../../components/homescroll.vue";
+import HomeScroll from "../../components/HomeScroll.vue";
 import ImageSlider from "../../components/ImageSlider.vue";
 
 export default {

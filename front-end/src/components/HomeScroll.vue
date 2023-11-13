@@ -85,7 +85,6 @@ import ScrollMagic from "scrollmagic";
 import HomeCategories from "./HomeCategories.vue";
 
 export default {
-  name: "HomeScroll",
   mounted() {
     const controller = new ScrollMagic.Controller();
     const sectionText = this.$refs.sectionText;
