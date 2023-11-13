@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFoundPage.vue";
 //css from bootstrap
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 createApp(App)
   .use(
