@@ -15,12 +15,11 @@
               abundance of Langbiang Farm, where every purchase is a celebration
               of quality and authenticity.
             </p>
-            <button class="btn btn-dark">Learn More</button>
+            <a class="btn btn-dark" href="/about">Learn More</a>
           </div>
         </div>
       </div>
     </div>
-    <br />
     <div class="container">
       <HomeScroll></HomeScroll>
     </div>
@@ -28,7 +27,7 @@
 </template>
 
 <script>
-import HomeScroll from "../components/HomeScroll.vue";
+import HomeScroll from "../../components/homescroll.vue";
 
 export default {
   components: {
@@ -41,7 +40,7 @@ export default {
 <style scoped>
 /* Add custom styles for the component if needed */
 .banner-section {
-  background: url("../assets/cover_img.jpg") center/cover no-repeat;
+  background: url("../../assets/cover_img.jpg") center/cover no-repeat;
   color: #fff;
   padding: 100px 0;
 }

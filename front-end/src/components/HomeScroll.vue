@@ -1,15 +1,8 @@
 <template>
   <div class="scroll-animations">
-    <section class="section-text" ref="sectionText">
-      <p>
-        Delve into the world of culinary excellence with our exceptional
-        collection of premium olive oils sourced from the corners of the globe.
-        Guided by an unwavering commitment to quality and authenticity, we are
-        dedicated to bringing you the epitome of olive oils for your gastronomic
-        adventures.
-      </p>
+    <section class="home-page-section">
+      <HomeCategories></HomeCategories>
     </section>
-
     <section class="home-page-section">
       <div class="container">
         <h1>About Us</h1>
@@ -42,7 +35,7 @@
         <br />
         <div class="row">
           <div class="col-md-4 order-md-2">
-            <h3>Slider</h3>
+            <p>Image</p>
           </div>
           <div class="col-md-8 order-md-1">
             <p>
@@ -67,9 +60,10 @@
 
 <script>
 import ScrollMagic from "scrollmagic";
+import HomeCategories from "./HomeCategories.vue";
 
 export default {
-  name: "OliveOilShopAnimations",
+  name: "HomeScroll",
   mounted() {
     const controller = new ScrollMagic.Controller();
     const sectionText = this.$refs.sectionText;
@@ -90,6 +84,9 @@ export default {
         .setClassToggle(sectionPlaceholder, "fade-in")
         .addTo(controller);
     });
+  },
+  components: {
+    HomeCategories,
   },
 };
 </script>
