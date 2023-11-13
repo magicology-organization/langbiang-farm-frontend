@@ -3,6 +3,7 @@
     <section class="home-page-section">
       <HomeCategories></HomeCategories>
     </section>
+    <hr />
     <section class="home-page-section">
       <div class="container">
         <h1>About Us</h1>
@@ -28,16 +29,16 @@
         </div>
       </div>
     </section>
-
+    <hr />
     <section class="home-page-section">
       <div class="container">
         <h1>Explore Our Selection</h1>
         <br />
         <div class="row">
-          <div class="col-md-4 order-md-2">
+          <div class="col-md-6 order-md-2">
             <p>Image</p>
           </div>
-          <div class="col-md-8 order-md-1">
+          <div class="col-md-6 order-md-1">
             <p>
               Immerse yourself in our meticulously handpicked assortment of
               single-origin and artfully infused olive oils. Elevate your
@@ -49,10 +50,10 @@
         </div>
       </div>
     </section>
-
+    <hr />
     <section class="home-page-section">
       <div class="container">
-        <h1>Home Chart</h1>
+        <h1>Newsletter</h1>
       </div>
     </section>
   </div>
