@@ -6,24 +6,38 @@
     <hr />
     <section class="home-page-section">
       <div class="container">
-        <h1>About Us</h1>
+        <h1>An Organic Farm with a Great Passion Behind</h1>
         <br />
         <div class="row">
           <div class="col-md-6">
             <img
-              src="../assets/faci_img.jpg"
-              alt="Olive Grove Store"
+              src="../assets/home/fruit.png"
+              alt="Fruit and Vege"
               class="img-fluid"
             />
           </div>
           <div class="col-md-6">
             <p>
-              Embark on a journey of taste and tradition at The Olive Grove. We
-              take immense pride in curating a diverse spectrum of olive oils,
-              each a symphony of distinctive flavors and inherent health
-              benefits. Our unyielding pursuit of excellence ensures that you
-              not only taste but also feel the essence of authentic olive oil
-              like never before.
+              At Langbiang Farm, our commitment to organic practices stems from
+              a dedication to quality and sustainability. We prioritize organic
+              farming methods to ensure that every product that leaves our
+              fields meets the highest standards of purity and nutritional
+              value. By harnessing nature's wisdom, we cultivate our crops
+              without synthetic pesticides or harmful chemicals, allowing the
+              natural flavors and inherent goodness to shine through in every
+              harvest.
+            </p>
+            <p>
+              Quality isn't just a goal; it's ingrained in every aspect of our
+              operations. From the meticulous selection of seeds to the
+              nurturing of crops using innovative techniques like hydroponics
+              and aeroponics, we strive for excellence. This dedication to
+              quality extends beyond the growing process—it's woven into our
+              stringent quality control measures that guarantee our produce
+              meets the globally recognized Global Gap standards. We firmly
+              believe that quality isn't an option; it's an unwavering
+              commitment that defines every step of our journey from farm to
+              table.
             </p>
           </div>
         </div>
@@ -36,9 +50,14 @@
         <br />
         <div class="row">
           <div class="col-md-6 order-md-2">
-            <p>Image</p>
+            <img
+              src="../assets/home/leaf.png"
+              alt="Plant Illustrarion"
+              class="img-fluid"
+            />
           </div>
           <div class="col-md-6 order-md-1">
+            <br />
             <p>
               Immerse yourself in our meticulously handpicked assortment of
               single-origin and artfully infused olive oils. Elevate your
