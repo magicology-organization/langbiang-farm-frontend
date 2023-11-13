@@ -11,35 +11,35 @@ import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-createApp(App)
-  .use(
-    VueRouter.createRouter({
-      history: VueRouter.createWebHistory(),
-      routes: [
-        {
-          path: "/",
-          component: HomePage,
-        },
-        {
-          path: "/about",
-          component: AboutPage,
-        },
-        {
-          path: "/products",
-          component: ProductsPage,
-        },
-        {
-          path: "/contact",
-          component: ContactPage,
-        },
-        {
-          path: "/:pathMatch(.*)*",
-          component: NotFound,
-        },
-      ],
-      scrollBehavior(to, from, savedPosition) {
-        return { top: 0 };
+const app = createApp(App).use(
+  VueRouter.createRouter({
+    history: VueRouter.createWebHistory(),
+    routes: [
+      {
+        path: "/",
+        component: HomePage,
       },
-    })
-  )
-  .mount("#app");
+      {
+        path: "/about",
+        component: AboutPage,
+      },
+      {
+        path: "/products",
+        component: ProductsPage,
+      },
+      {
+        path: "/contact",
+        component: ContactPage,
+      },
+      {
+        path: "/:pathMatch(.*)*",
+        component: NotFound,
+      },
+    ],
+    scrollBehavior(to, from, savedPosition) {
+      return { top: 0 };
+    },
+  })
+);
+// useCustomeDirective(app);
+app.mount("#app");
