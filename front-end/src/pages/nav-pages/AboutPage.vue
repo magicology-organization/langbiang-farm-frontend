@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import TimelineItem from "../../components/TimelineItem.vue";
+import TimelineItem from "../../components/TimeLineItem.vue";
 import TeamDesc from "../../components/TeamDesc.vue";
 export default {
   components: {
