@@ -8,7 +8,8 @@ import ProductsPage from "./pages/nav-pages/ProductPage.vue";
 import NotFound from "./pages/NotFoundPage.vue";
 //css from bootstrap
 import "bootstrap";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 const app = createApp(App).use(
