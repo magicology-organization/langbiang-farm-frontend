@@ -133,6 +133,7 @@ export default {
   max-width: 100%;
 }
 .newsletter {
-  background-color: aqua;
+  background-image: url("../assets/newsletter.png");
+  min-height: 120px;
 }
 </style>
