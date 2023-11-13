@@ -37,6 +37,9 @@ createApp(App)
           component: NotFound,
         },
       ],
+      scrollBehavior(to, from, savedPosition) {
+        return { top: 0 };
+      },
     })
   )
   .mount("#app");
