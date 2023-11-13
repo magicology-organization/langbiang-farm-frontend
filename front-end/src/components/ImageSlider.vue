@@ -1,18 +1,20 @@
 <template>
   <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-      <div
-        v-for="(item, index) in items"
-        :key="index"
-        :class="{ 'carousel-item': true, active: index === currentIndex }"
-      >
-        <img
-          :src="item.src"
-          class="d-block w-100"
-          :alt="'Slide ' + (index + 1)"
-        />
+    <transition name="fade" mode="out-in">
+      <div :key="currentIndex" class="carousel-inner">
+        <div
+          v-for="(item, index) in items"
+          :key="index"
+          :class="{ 'carousel-item': true, active: index === currentIndex }"
+        >
+          <img
+            :src="item.src"
+            class="d-block w-100"
+            :alt="'Slide ' + (index + 1)"
+          />
+        </div>
       </div>
-    </div>
+    </transition>
     <button class="carousel-control-prev" type="button" @click="prevSlide">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -62,7 +64,15 @@ export default {
 </script>
 
 <style scoped>
-/* Add your styles here if needed */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+/* Add your other styles here if needed */
 </style>
 
 <!-- Old Implementation (With animation) -->

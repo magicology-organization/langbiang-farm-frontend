@@ -8,9 +8,7 @@
         class="img-fluid"
       /> -->
     </div>
-    <div class="container">
-      <HomeScroll></HomeScroll>
-    </div>
+    <HomeScroll></HomeScroll>
   </div>
 </template>
 
