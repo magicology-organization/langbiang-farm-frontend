@@ -1,7 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">Langbiang Farm</a>
+      <RouterLink to="/" class="navbar-brand font-bold">
+        <div class="img-fluid logo-img">
+          <!-- Add a max-width style to limit the logo size -->
+          <img src="../assets/logo.png" style="max-width: 130px" />
+        </div>
+      </RouterLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -41,3 +46,4 @@
 <script>
 export default {};
 </script>
+<style scoped></style>

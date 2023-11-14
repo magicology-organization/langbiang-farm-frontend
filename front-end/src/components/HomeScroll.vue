@@ -117,7 +117,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .section-text,
 .home-page-section {
   opacity: 0;

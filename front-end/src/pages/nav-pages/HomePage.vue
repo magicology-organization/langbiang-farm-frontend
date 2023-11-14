@@ -2,11 +2,6 @@
   <div>
     <div class="banner-section">
       <ImageSlider></ImageSlider>
-      <!-- <img
-        src="../../assets/cover_img.png"
-        alt="Banner Image"
-        class="img-fluid"
-      /> -->
     </div>
     <HomeScroll></HomeScroll>
   </div>
@@ -25,4 +20,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+* {
+  background-color: rgb(238, 253, 233);
+}
+</style>
