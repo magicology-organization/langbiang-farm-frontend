@@ -21,6 +21,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   data() {
     return {
@@ -28,10 +30,13 @@ export default {
     };
   },
   created() {
-    fetch("/data/categories.json")
-      .then((response) => response.json())
-      .then((data) => {
-        this.categories = data;
+    axios
+      .get("/data/categories.json")
+      .then((response) => {
+        this.categories = response.data;
+      })
+      .catch((error) => {
+        console.error("Error fetching categories:", error);
       });
   },
 };
