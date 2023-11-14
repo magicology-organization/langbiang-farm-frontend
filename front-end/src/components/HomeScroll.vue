@@ -7,7 +7,6 @@
     </div>
     <HowMade></HowMade>
     <div class="container">
-      <hr />
       <section class="home-page-section">
         <div class="container">
           <h1>An Organic Farm with a Great Passion Behind</h1>

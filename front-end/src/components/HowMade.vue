@@ -68,7 +68,7 @@ export default {};
 .team-desc {
   padding-top: 20px;
   padding-bottom: 80px;
-  background-image: url("images/cover-howmade.jpg");
+  background-image: url("../assets/cover-howmade.jpg");
 }
 .highlight-number {
   font-size: 30px;
