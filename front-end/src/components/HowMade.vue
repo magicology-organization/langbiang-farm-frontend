@@ -12,12 +12,11 @@
       <div class="col-md-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Field Operations Team</h5>
             <AlwaysFreshIcon></AlwaysFreshIcon>
-
+            <h3 class="card-title">ALWAYS FRESH</h3>
             <p class="card-text">
-              Managing and overseeing daily farm activities with a focus on
-              precision and efficiency.
+              Thanks to innovative organic technologies, our products are always
+              fresh and don’t need any treatment.
             </p>
           </div>
         </div>
@@ -25,12 +24,12 @@
       <div class="col-md-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Technology Integration Team</h5>
             <OrganicIcon></OrganicIcon>
             <!-- <p class="card-text highlight-number">20 People</p> -->
+            <h3 class="card-title">100% ORGANIC</h3>
             <p class="card-text">
-              Leveraging cutting-edge technology for seamless farm operations,
-              ensuring reliability and security.
+              We adhere to our organic philosophy, which implies avoiding
+              pesticides and non-organic fertilizers.
             </p>
           </div>
         </div>
@@ -38,12 +37,12 @@
       <div class="col-md-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Crop Management Team</h5>
             <NoAddictiveIcon></NoAddictiveIcon>
             <!-- <p class="card-text highlight-number">30 People</p> -->
+            <h3 class="card-title">NO ADDICTIVES</h3>
             <p class="card-text">
-              Utilizing data analytics and expertise to optimize crop yields and
-              quality.
+              We avoid any artificial additives after harvesting the crops to
+              offer you the best organic products.
             </p>
           </div>
         </div>
@@ -51,12 +50,12 @@
       <div class="col-md-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Technology Integration Team</h5>
             <ModernFarmIcon></ModernFarmIcon>
             <!-- <p class="card-text highlight-number">20 People</p> -->
+            <h3 class="card-title">MODERN FARM</h3>
             <p class="card-text">
-              Leveraging cutting-edge technology for seamless farm operations,
-              ensuring reliability and security.
+              Though we rely on traditional organic farming a lot, we also use
+              the latest farming innovations.
             </p>
           </div>
         </div>
@@ -85,16 +84,19 @@ export default {
   padding-top: 20px;
   padding-bottom: 80px;
   background-image: url("../assets/cover-howmade.jpg");
+  background-size: cover; /* This will make the background image cover the entire container */
+  background-position: center; /* This will center the background image */
+  background-repeat: no-repeat; /* This will prevent the background image from being repeated */
 }
-.highlight-number {
-  font-size: 30px;
-  color: #ff5733;
-}
+
 .card {
   background-color: transparent;
   border: transparent;
 }
 .made-title {
   color: aliceblue;
+}
+.card-body {
+  color: rgb(27, 26, 26);
 }
 </style>
