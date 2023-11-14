@@ -13,7 +13,8 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Field Operations Team</h5>
-            <p class="card-text highlight-number">50 People</p>
+            <!-- <p class="card-text highlight-number">50 People</p> -->
+
             <p class="card-text">
               Managing and overseeing daily farm activities with a focus on
               precision and efficiency.
