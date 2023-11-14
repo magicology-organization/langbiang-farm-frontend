@@ -13,7 +13,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Field Operations Team</h5>
-            <!-- <p class="card-text highlight-number">50 People</p> -->
+            <AlwaysFreshIcon></AlwaysFreshIcon>
 
             <p class="card-text">
               Managing and overseeing daily farm activities with a focus on
@@ -26,7 +26,8 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Technology Integration Team</h5>
-            <p class="card-text highlight-number">20 People</p>
+            <OrganicIcon></OrganicIcon>
+            <!-- <p class="card-text highlight-number">20 People</p> -->
             <p class="card-text">
               Leveraging cutting-edge technology for seamless farm operations,
               ensuring reliability and security.
@@ -38,7 +39,8 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Crop Management Team</h5>
-            <p class="card-text highlight-number">30 People</p>
+            <NoAddictiveIcon></NoAddictiveIcon>
+            <!-- <p class="card-text highlight-number">30 People</p> -->
             <p class="card-text">
               Utilizing data analytics and expertise to optimize crop yields and
               quality.
@@ -50,7 +52,8 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Technology Integration Team</h5>
-            <p class="card-text highlight-number">20 People</p>
+            <ModernFarmIcon></ModernFarmIcon>
+            <!-- <p class="card-text highlight-number">20 People</p> -->
             <p class="card-text">
               Leveraging cutting-edge technology for seamless farm operations,
               ensuring reliability and security.
@@ -63,7 +66,19 @@
 </template>
 
 <script>
-export default {};
+import AlwaysFreshIcon from "./icons/AlwaysFresh.vue";
+import ModernFarmIcon from "./icons/ModernFarm.vue";
+import NoAddictiveIcon from "./icons/NoAddictive.vue";
+import OrganicIcon from "./icons/WheatIcon.vue";
+
+export default {
+  components: {
+    AlwaysFreshIcon,
+    ModernFarmIcon,
+    NoAddictiveIcon,
+    OrganicIcon,
+  },
+};
 </script>
 <style scoped>
 .team-desc {

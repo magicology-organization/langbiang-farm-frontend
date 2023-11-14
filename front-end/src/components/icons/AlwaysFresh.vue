@@ -16,8 +16,8 @@
         x2="37.3535"
         y2="72.8756"
       >
-        <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-        <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+        <stop offset="0" style="stop-color: #e9da5b"></stop>
+        <stop offset="1" style="stop-color: #76a86f"></stop>
       </linearGradient>
       <path
         fill="url(#SVGID_1_5_)"
@@ -31,8 +31,8 @@
         x2="35.1987"
         y2="72.8756"
       >
-        <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-        <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+        <stop offset="0" style="stop-color: #e9da5b"></stop>
+        <stop offset="1" style="stop-color: #76a86f"></stop>
       </linearGradient>
       <path
         fill="url(#SVGID_2_5_)"
@@ -46,8 +46,8 @@
         x2="58.8526"
         y2="72.8756"
       >
-        <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-        <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+        <stop offset="0" style="stop-color: #e9da5b"></stop>
+        <stop offset="1" style="stop-color: #76a86f"></stop>
       </linearGradient>
       <path
         fill="url(#SVGID_3_5_)"
@@ -61,8 +61,8 @@
         x2="15.5911"
         y2="72.8756"
       >
-        <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-        <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+        <stop offset="0" style="stop-color: #e9da5b"></stop>
+        <stop offset="1" style="stop-color: #76a86f"></stop>
       </linearGradient>
       <path
         fill="url(#SVGID_4_5_)"
@@ -76,8 +76,8 @@
         x2="56.8298"
         y2="72.8756"
       >
-        <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-        <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+        <stop offset="0" style="stop-color: #e9da5b"></stop>
+        <stop offset="1" style="stop-color: #76a86f"></stop>
       </linearGradient>
       <path
         fill="url(#SVGID_5_5_)"
@@ -91,8 +91,8 @@
         x2="13.5681"
         y2="72.8756"
       >
-        <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-        <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+        <stop offset="0" style="stop-color: #e9da5b"></stop>
+        <stop offset="1" style="stop-color: #76a86f"></stop>
       </linearGradient>
       <path
         fill="url(#SVGID_6_5_)"
@@ -108,8 +108,8 @@
             x2="16.9623"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_7_5_)"
@@ -123,8 +123,8 @@
             x2="4.8577"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_8_5_)"
@@ -138,8 +138,8 @@
             x2="10.0299"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_9_5_)"
@@ -153,8 +153,8 @@
             x2="13.5003"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_10_5_)"
@@ -168,8 +168,8 @@
             x2="13.2657"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_11_5_)"
@@ -183,8 +183,8 @@
             x2="19.7874"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_12_5_)"
@@ -198,8 +198,8 @@
             x2="17.6347"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_13_5_)"
@@ -215,8 +215,8 @@
             x2="34.7895"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_14_5_)"
@@ -230,8 +230,8 @@
             x2="34.7905"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_15_5_)"
@@ -245,8 +245,8 @@
             x2="38.7522"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_16_5_)"
@@ -260,8 +260,8 @@
             x2="33.4465"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_17_5_)"
@@ -277,8 +277,8 @@
             x2="49.3"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_18_5_)"
@@ -292,8 +292,8 @@
             x2="61.5252"
             y2="72.8756"
           >
-            <stop offset="0" stop-color="var(--color-stop-1)"></stop>
-            <stop offset="1" stop-color="var(--color-stop-2)"></stop>
+            <stop offset="0" style="stop-color: #e9da5b"></stop>
+            <stop offset="1" style="stop-color: #76a86f"></stop>
           </linearGradient>
           <path
             fill="url(#SVGID_19_5_)"
