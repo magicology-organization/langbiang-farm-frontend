@@ -3,7 +3,7 @@
   <section class="products mt-5">
     <div class="row text-center">
       <div class="col-sm-12 mb-2">
-        <h1 class="fw-bold">OUR BRIEF INTRODUCTION</h1>
+        <h1>A Few Words About Our Farm</h1>
       </div>
       <div
         class="col-sm-4 cat-container my-2"

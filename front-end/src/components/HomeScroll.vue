@@ -4,6 +4,9 @@
       <section class="home-page-section">
         <HomeCategories></HomeCategories>
       </section>
+    </div>
+    <HowMade></HowMade>
+    <div class="container">
       <hr />
       <section class="home-page-section">
         <div class="container">
@@ -45,6 +48,8 @@
         </div>
       </section>
       <hr />
+    </div>
+    <div class="container">
       <section class="home-page-section">
         <div class="container">
           <h1>Explore Our Farm</h1>
@@ -81,6 +86,7 @@
 import ScrollMagic from "scrollmagic";
 import HomeCategories from "./HomeCategories.vue";
 import NewsletterSubscrb from "./NewsletterSubscrb.vue";
+import HowMade from "./HowMade.vue";
 
 export default {
   mounted() {
@@ -107,6 +113,7 @@ export default {
   components: {
     HomeCategories,
     NewsletterSubscrb,
+    HowMade,
   },
 };
 </script>
