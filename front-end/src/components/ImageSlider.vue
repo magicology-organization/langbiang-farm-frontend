@@ -1,37 +1,80 @@
 <template>
-  <div
-    id="carouselExampleAutoplaying"
-    class="carousel slide"
-    data-bs-ride="carousel"
-  >
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../assets/cover_img.png" class="d-block w-100" alt="..." />
-      </div>
-      <div class="carousel-item">
-        <img src="../assets/banner2.png" class="d-block w-100" alt="..." />
-      </div>
-      <div class="carousel-item">
-        <img src="../assets/banner3.png" class="d-block w-100" alt="..." />
-      </div>
+  <div ref="container" class="keen-slider">
+    <div class="keen-slider__slide">
+      <img src="../assets/cover_img.png" class="d-block w-100" alt="..." />
     </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="keen-slider__slide">
+      <img src="../assets/banner2.png" class="d-block w-100" alt="..." />
+    </div>
+    <div class="keen-slider__slide">
+      <img src="../assets/banner3.png" class="d-block w-100" alt="..." />
+    </div>
   </div>
 </template>
+
+<script>
+import { useKeenSlider } from "keen-slider/vue.es";
+import "keen-slider/keen-slider.min.css";
+
+export default {
+  setup() {
+    const [container] = useKeenSlider(
+      {
+        loop: true,
+      },
+      [
+        (slider) => {
+          let timeout;
+          let mouseOver = false;
+          function clearNextTimeout() {
+            clearTimeout(timeout);
+          }
+          function nextTimeout() {
+            clearTimeout(timeout);
+            if (mouseOver) return;
+            timeout = setTimeout(() => {
+              slider.next();
+            }, 2000);
+          }
+          slider.on("created", () => {
+            slider.container.addEventListener("mouseover", () => {
+              mouseOver = true;
+              clearNextTimeout();
+            });
+            slider.container.addEventListener("mouseout", () => {
+              mouseOver = false;
+              nextTimeout();
+            });
+            nextTimeout();
+          });
+          slider.on("dragStarted", clearNextTimeout);
+          slider.on("animationEnded", nextTimeout);
+          slider.on("updated", nextTimeout);
+        },
+      ]
+    );
+    return { container };
+  },
+};
+</script>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 300px;
+  max-height: 100vh;
+}
+</style>
