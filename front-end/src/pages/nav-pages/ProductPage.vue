@@ -39,7 +39,9 @@ export default {
   methods: {
     async fetchProducts() {
       try {
-        const response = await axios.get("/temp/products.json"); // Replace with your API endpoint
+        const response = await axios.get(
+          "https://langbiang-farm-backend-api.vercel.app/api/products/"
+        ); // Replace with your API endpoint
         this.products = response.data;
       } catch (error) {
         console.error("Error fetching products:", error);
