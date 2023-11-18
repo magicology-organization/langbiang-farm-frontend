@@ -1,0 +1,202 @@
+[
+	{
+		"ProductID": 1,
+		"ProductName": "Hydroponic Celery",
+		"Price": 3.99,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/hydroponic-celery.png",
+		"ImageDescription": "Fresh hydroponic celery in a bunch"
+	},
+	{
+		"ProductID": 2,
+		"ProductName": "Hydroponic Butter Lettuce",
+		"Price": 2.49,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/hydroponic-butter-lettuce.png",
+		"ImageDescription": "Fresh hydroponic butter lettuce head"
+	},
+	{
+		"ProductID": 3,
+		"ProductName": "Korean Strawberry",
+		"Price": 4.99,
+		"CategoryID": 2,
+		"CategoryType": "Fruits",
+		"CategoryDescription": "Premium fruits cultivated with 4.0 technology to ensure cleanliness and sweetness",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/korean-strawberry.png",
+		"ImageDescription": "Fresh Korean strawberries in a pint"
+	},
+	{
+		"ProductID": 4,
+		"ProductName": "Kale",
+		"Price": 2.79,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/kale.png",
+		"ImageDescription": "Fresh kale in a bunch"
+	},
+	{
+		"ProductID": 5,
+		"ProductName": "Hydroponic Spring Onions",
+		"Price": 1.99,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/hydroponic-spring-onions.png",
+		"ImageDescription": "Fresh hydroponic spring onions in a bunch"
+	},
+	{
+		"ProductID": 6,
+		"ProductName": "Hydroponic Watercress",
+		"Price": 3.49,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/hydroponic-watercress.png",
+		"ImageDescription": "Fresh hydroponic watercress head"
+	},
+	{
+		"ProductID": 7,
+		"ProductName": "Beef Tomato",
+		"Price": 2.99,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/beef-tomato.png",
+		"ImageDescription": "Fresh beef tomatoes"
+	},
+	{
+		"ProductID": 8,
+		"ProductName": "Bell Pepper",
+		"Price": 1.49,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/bell-pepper.png",
+		"ImageDescription": "Fresh bell peppers of various colors"
+	},
+	{
+		"ProductID": 9,
+		"ProductName": "Silver Dollar Eucalyptus",
+		"Price": 3.99,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/silver-dollar-eucalyptus.png",
+		"ImageDescription": "Fresh silver dollar eucalyptus bunch"
+	},
+	{
+		"ProductID": 10,
+		"ProductName": "Ivy (Hedera Helix)",
+		"Price": 2.49,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/hedera-helix.png",
+		"ImageDescription": "Ivy (Hedera Helix) potted plant"
+	},
+	{
+		"ProductID": 11,
+		"ProductName": "Moss (Pots, Ground Cover)",
+		"Price": 4.99,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/moss.png",
+		"ImageDescription": "Fresh moss in a pot"
+	},
+	{
+		"ProductID": 12,
+		"ProductName": "Peony Chrysanthemum",
+		"Price": 6.79,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/peony-chrysanthemum.png",
+		"ImageDescription": "Fresh peony chrysanthemum bunch"
+	},
+	{
+		"ProductID": 13,
+		"ProductName": "Tana Chrysanthemum",
+		"Price": 4.49,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/tana-chrysanthemum.png",
+		"ImageDescription": "Fresh tana chrysanthemum bunch"
+	},
+	{
+		"ProductID": 14,
+		"ProductName": "Million Star Baby's Breath",
+		"Price": 3.99,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/baby-breath.png",
+		"ImageDescription": "Fresh million star babys breath bunch"
+	},
+	{
+		"ProductID": 15,
+		"ProductName": "Lily of Peru",
+		"Price": 5.99,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/lily-of-peru.png",
+		"ImageDescription": "Fresh lily of Peru stem"
+	},
+	{
+		"ProductID": 16,
+		"ProductName": "Carnation",
+		"Price": 3.49,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/carnation.png",
+		"ImageDescription": "Fresh carnation stern"
+	},
+	{
+		"ProductID": 17,
+		"ProductName": "Gerbera",
+		"Price": 2.99,
+		"CategoryID": 3,
+		"CategoryType": "Flowers",
+		"CategoryDescription": "Beautiful and vibrant flowers perfect for various occasions",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/gerbera.png",
+		"ImageDescription": "Fresh gerbera bunch"
+	},
+	{
+		"ProductID": 18,
+		"ProductName": "Hydroponic Dandelion Greens",
+		"Price": 3.49,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/hydroponic-dandelion-greens.png",
+		"ImageDescription": "Fresh hydroponic dandelion greens bunch"
+	},
+	{
+		"ProductID": 19,
+		"ProductName": "Hydroponic Salanova Lettuce (Red Frisee)",
+		"Price": 4.99,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/hydroponic-salanova-lettuce.png",
+		"ImageDescription": "Fresh hydroponic Salanova lettuce (Red Frisee) bunch"
+	},
+	{
+		"ProductID": 20,
+		"ProductName": "Vietnamese Cucumber",
+		"Price": 1.99,
+		"CategoryID": 1,
+		"CategoryType": "Vegetables",
+		"CategoryDescription": "Fresh and healthy vegetables grown using hydroponic methods and meeting VIETGAP standards",
+		"IllustrateImage": "https://mahou-bucket.s3.amazonaws.com/farm-product-pictures/vietnamese-cucumber.png",
+		"ImageDescription": "Fresh Vietnamese cucumber"
+	}
+]
