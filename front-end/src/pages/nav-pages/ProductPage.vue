@@ -11,7 +11,7 @@
           <img
             :src="product.IllustrateImage"
             class="card-img-top fixed-size-image"
-            alt="Product Image"
+            :alt="product.ImageDescription"
           />
           <div class="card-body">
             <h5 class="card-title">{{ product.ProductName }}</h5>
