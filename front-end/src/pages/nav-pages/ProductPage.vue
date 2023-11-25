@@ -3,7 +3,7 @@
     <h2>Product List</h2>
     <div class="row">
       <div
-        v-for="product in products"
+        v-for="product in $store.state.products"
         :key="product.ProductID"
         class="col-md-4 mb-4"
       >
@@ -25,7 +25,6 @@
 </template>
 
 <script>
-import axios from "axios";
 export default {
   data() {
     return {
@@ -33,20 +32,12 @@ export default {
     };
   },
   mounted() {
-    // Make Axios call to fetch products
-    this.fetchProducts();
+    // Make Axios call to fetch products (Old code)
+    // this.fetchProducts();
   },
-  methods: {
-    async fetchProducts() {
-      try {
-        const response = await axios.get(
-          "https://langbiang-farm-backend-api.vercel.app/api/products/"
-        ); // Replace with your API endpoint
-        this.products = response.data;
-      } catch (error) {
-        console.error("Error fetching products:", error);
-      }
-    },
+  methods: {},
+  async created() {
+    this.$store.dispatch("getProducts");
   },
 };
 </script>
