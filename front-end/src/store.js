@@ -1,6 +1,7 @@
 import { createStore } from "vuex";
 import axios from "axios";
 const currentHost = "langbiang-farm-backend-api.vercel.app/api";
+const protocol = "https";
 
 export const store = createStore({
   state: {
@@ -28,7 +29,8 @@ export const store = createStore({
   },
   actions: {
     async getProducts({ commit }) {
-      let dataToGet = (await axios.get(`http://${currentHost}/products`)).data;
+      let dataToGet = (await axios.get(`${protocol}://${currentHost}/products`))
+        .data;
       commit("updateProducts", dataToGet);
     },
     // async addItem({ commit }, dataToPost) {
