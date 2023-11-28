@@ -13,6 +13,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { store } from "./store.js";
 
+// hello world
+
 const app = createApp(App).use(
   VueRouter.createRouter({
     history: VueRouter.createWebHistory(),
